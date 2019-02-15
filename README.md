@@ -9,3 +9,5 @@ Includes Handlebar Helper functions for Placeholders, Edit Frames and more. Exte
 Components provided can bind to single items, folders, explicit collections or even Sitecore queries.
 
 SXA Version supports toolbox and can even be used as a Rendering Variant for Standard SXA Components.
+
+Note this repository currently supports Sitecore 9.1 and SXA 1.8.
