@@ -1,0 +1,14 @@
+﻿---
+ID: "b73289c6-a70d-4fb4-82e8-f8df9f32dbad"
+Parent: "f3a88017-fcea-48a5-b9d5-7ece96e91b62"
+Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
+Path: /sitecore/media library/Foundation/SF/Handlebars
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190215T201152Z

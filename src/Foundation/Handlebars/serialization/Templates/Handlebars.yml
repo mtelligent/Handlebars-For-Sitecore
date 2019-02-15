@@ -1,0 +1,14 @@
+﻿---
+ID: "479c9f0c-62ca-4aca-aa96-9fa479e77216"
+Parent: "dbac3c57-872a-419c-868a-1195cf8d2b18"
+Template: "0437fee2-44c9-46a6-abe9-28858d9fee8c"
+Path: /sitecore/templates/Foundation/SF/Handlebars
+DB: master
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190215T171146Z

@@ -1,0 +1,302 @@
+<project site="handlebars.dev.local" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>Handlebars for Sitecore </PackageName>
+      <Author>David San Filippo</Author>
+      <Version>v 0.1</Version>
+      <Revision />
+      <License>MIT License
+
+Copyright (c) David San Filippo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</License>
+      <Comment />
+      <Attributes />
+      <Readme />
+      <Publisher>mtelligent</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/{28AEB573-80D1-4BD6-A10D-1B226B9FB541}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/{48C173D2-0A21-4BEC-B052-95230C6D89BC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/Font/{B4045E92-EA98-4A4A-B282-A39D1E6D6BDF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/MediaResource/{A3433EFD-6D7F-457E-94E4-9F7559B5BD06}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/Theme/{EB5692A6-71C0-48BB-82CB-7DC0C70134D5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/User Settings/{4E034734-9440-4AB6-8BCD-1C393D8B781E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/MediaResource/Media Resource/{E07F1C72-B8AB-4D38-9E4F-97DB7813771C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/MediaResource/__Standard Values/{E5A17A8E-427A-4FB3-A574-56F41A3681D7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/MediaResource/Media Resource/MediaPath/{1BE520EB-CD3F-493A-A9EC-A0DDFF3164C8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/User Settings/Appearance/{B08B0CBA-2EE5-4CB2-9E64-C801C5DC4A41}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/User Settings/__Standard Values/{28846ADD-7BB3-432E-9959-01D8B8E858F3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/User Settings/Appearance/Theme/{7DFDF1D3-C3C0-4575-A371-7273EEF1382E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/User Settings/Appearance/Width/{E6534E6A-E54D-4410-876C-63EFF15A8E4B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/User Settings/Appearance/Height/{56B06422-984F-4949-8E48-48AF01B51E11}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/User Settings/Appearance/FontSize/{E6720D2D-19FC-49BA-83D6-B387CD725DC3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/CodeEditor/Item Templates/User Settings/Appearance/FontFamily/{EB8DA5E4-81C3-4FBA-A5FC-DFBA9A0636E3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Components/{42FB2C7D-FE93-4F0B-990E-09F6912949E7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Components/Rendering Parameters/{2F72A54D-F19D-43BA-BFD0-DD51445CF39B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Components/Rendering Parameters/ContainerRenderingParameters/{6AAC0B30-7B0C-4A88-A6C5-85B0B3530778}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Components/Rendering Parameters/SF Base Rendering Parameters/{90515C98-D22D-4991-9526-54B937E463C6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Components/Rendering Parameters/ContainerRenderingParameters/__Standard Values/{35FB6E71-06B1-4F91-8784-B937E930CD14}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Components/Rendering Parameters/ContainerRenderingParameters/CSS Overrides/{4600EE9B-C3B8-4B30-823D-1AFCBE785CD4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Components/Rendering Parameters/ContainerRenderingParameters/CSS Overrides/ID/{EBA9D11B-E0A5-4EB9-9C6B-6C831250E0EE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Components/Rendering Parameters/ContainerRenderingParameters/CSS Overrides/class/{8C6BA74B-37DE-4BA8-9C31-E6869C6CAEF2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Components/Rendering Parameters/SF Base Rendering Parameters/__Standard Values/{085BC073-9B38-4CCA-8C6F-4FC7521B3714}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Configuration/{56C561FA-CD26-4790-9EF5-09778439D1EE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Configuration/Configuration Templates/{7EDC4CD8-2E5C-4654-9ECB-1E2C6FB4EA03}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Configuration/Configuration Templates/Drop Down Item/{A280AAB8-15A0-4646-9D39-C606E81BE744}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/{479C9F0C-62CA-4ACA-AA96-9FA479E77216}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Base Templates/{890FC18B-3665-442A-A640-8BDE8E680AE5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/{68E4E9BF-D47B-423B-8C8C-BC4472A26EC7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/{25EDB83F-EF55-441E-B83B-EF09701C1510}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/{5890877E-A348-424F-A90D-C1C7ADD4EE1B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Rendering Parameters/{A084E9D7-DDD5-45B1-8BDE-FC1781585E7B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Base Templates/Form Processor/{459434F8-297D-46AE-B1AF-F617AC7B8C3D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Base Templates/Form Processor/Processor Details/{20663E0F-63F5-42CB-A57E-B7B79DDC7C92}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Base Templates/Form Processor/Processor Details/Type/{5EB4D348-8799-4340-A6B3-6E7DDE962E9C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarForm/{46FB120D-8D64-4F62-B8F3-40FB97B625D8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarJsonContainer/{7429BE64-F183-4748-9C2C-6A01D9C63A06}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarCollectionContainer/{1C7CBB97-485D-4540-9D41-F3A3F90ED85C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/{4D132935-8652-41BE-88CD-9EACDDECFCCE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarTemplate/{AA343BBD-3952-4951-8480-2204508FC3CA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarForm/Handlebar Settings/{57A856CD-BA67-4DE8-A8DE-9C0E2E3C3D3E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarForm/Processors/{35AAAB0B-7034-4A30-BF31-E365F6DFCB8E}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarForm/Post Processing/{E495FCAF-B9AE-4A0F-A5B4-BA177B856028}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarForm/__Standard Values/{B9B67D41-391E-46D1-9B3D-3734A1CC40FA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarForm/Handlebar Settings/Content Data Source/{42EE780B-3ACB-48AB-9F0A-777A5269BCDF}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarForm/Handlebar Settings/Post Processing Data Source/{D78E0277-37AA-4E40-851F-23BC146A6694}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarForm/Processors/Processors/{B906EB41-2E7A-45B8-AC33-E174E7005D11}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarForm/Post Processing/Redirection Url/{5E267936-209C-491E-A0FA-8E4D73764C27}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarJsonContainer/Json Details/{66A206AB-B65C-4595-A027-11DCF6DCF7CE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarJsonContainer/__Standard Values/{D6DDE376-B054-4CDE-8163-CEF4608CA63F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarJsonContainer/Json Details/Url/{869A1247-3ECC-4038-BD83-445B8C1D13BE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarCollectionContainer/Data Source Details/{03BDC519-905A-4C34-8636-3B049DF7F644}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarCollectionContainer/__Standard Values/{5EE2141A-1C1A-45DD-9EB6-4E3AA54CE7CC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarCollectionContainer/Pagination Details/{CFFD12DE-E91D-4A4A-BFA9-D9808108A5CB}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarCollectionContainer/Data Source Details/Root Folder/{6CCD6589-EF6B-4E8E-844E-E1819C15D9BA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarCollectionContainer/Data Source Details/Additional Items/{A9C8CBBA-0A91-41BA-B373-CA2E7162D296}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarCollectionContainer/Pagination Details/Enable Pagination/{1C2EDE9F-6DA2-498A-B922-5D7A9150124F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarCollectionContainer/Pagination Details/Items Per Page/{5DB357FA-0DBA-4347-B70B-5EB20AE353F6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarCollectionContainer/Pagination Details/Querystring Parameter/{FF85B312-222E-4188-8EAB-67B98E63CAB2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Data Source Details/{9E104A4C-469A-4687-A001-FB932F3CBC0F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/__Standard Values/{5EA24EE2-6A50-46A7-A242-BAE760AA27D8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Pagination Details/{4268E261-1776-4959-AFD9-8F405704BA23}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Data Source Details/Search Root/{B1BCE228-8193-4E78-B66F-6D7624990AA0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Data Source Details/Free Text Query/{994DF160-1B2F-47D6-B622-8BD8F767F0BD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Data Source Details/Base Template/{CDD11E3B-DE1E-484E-93AA-B872DB9D4BB2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Data Source Details/Field Filters/{51F43B2C-D36D-4F99-8730-EF38C006B3D8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Data Source Details/Query Parameter/{28E75308-C5C1-4634-97EE-27D5F2987EF3}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Data Source Details/Index Name Override/{9605C122-9B9A-4BA2-8D6D-DD0A3E29E473}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Data Source Details/Order By Field/{C0D8DFD2-2D78-447D-B986-2B23FF5206E1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Data Source Details/Order By Direction/{BC920248-E3ED-4603-834E-846F8970C640}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Pagination Details/Enable Pagination/{1CCF4493-2BE2-4781-87FF-435CEE46F8EE}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Pagination Details/Items Per Page/{4D0C1825-D352-4498-B20D-E9E8E20EAEA5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarQueryContainer/Pagination Details/Querystring Parameter/{4059AA36-9451-4276-AE59-4403877D764C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarTemplate/Content Details/{BF84356C-85DD-40BF-A0C1-82C80DBBFDD8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarTemplate/__Standard Values/{E9566CB5-78CD-43CC-BF86-478A37CC64F1}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Component Templates/HandlebarTemplate/Content Details/Content/{74BD07F6-747A-42D3-99E9-44E2AD599365}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Collections Folder/{A7AECB32-8A5D-41AE-A87F-3081E344669F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Data Folder/{F89EDEEB-BCE2-4773-990F-B1D1039C940F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Form Processors Folder/{9C122042-49AA-41C1-8320-4BFA2B97FA5A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Forms Folder/{7A71C555-C114-4DC3-A0A1-F5D84D1BAA8D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Json Folder/{3366D2CC-DD28-46A4-8332-D6C294E31715}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Queries Folder/{832F10A7-D293-4E14-A0BE-7F0469CF8EAC}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Template Folder/{67C618BE-6FE8-4156-A677-1109485F6300}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Collections Folder/__Standard Values/{C70AA84D-6599-40F9-A186-9635A350E748}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Data Folder/__Standard Values/{0B309CB9-1913-4A07-84BF-D9F152A3BEE5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Form Processors Folder/__Standard Values/{19206BFB-91B5-4F61-A269-C14BB99CD237}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Forms Folder/__Standard Values/{B981B8A3-A929-4F45-BFE6-CBBF7F8EA817}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Json Folder/__Standard Values/{82C0169F-DBCA-44DB-BD5F-F3E082A9F826}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Queries Folder/__Standard Values/{C20077D4-3E64-4228-AD8B-F36EECDBC5A4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Folder Templates/Handlebar Template Folder/__Standard Values/{6DBB35E8-A8B0-4348-880E-EBD08DC3A173}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/User Settings Processor/{97BE8FD4-CDD6-495C-B697-E293473B5251}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/SQL Processor/{667C146A-F8DE-44F1-ABBC-B05FC7107B90}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/User Settings Processor/Fields/{DD27C075-6915-4216-BE0D-D1C6F4C6ADCD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/User Settings Processor/__Standard Values/{BE0E3C06-CFDD-4985-B1B1-50CB9E8D1B0A}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/User Settings Processor/Fields/Fields/{DB4213B2-D1DA-4463-BD13-992D1D415843}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/User Settings Processor/Fields/Settings Area/{963E5FBB-BB8D-4277-BBF4-7A632A64A8C8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/SQL Processor/Database Settings/{4F51A190-A290-424D-B656-A7E74630479B}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/SQL Processor/__Standard Values/{B29F0F93-B95D-44F7-AF66-08F89630B1E2}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/SQL Processor/Database Settings/Connection String/{7B00FC18-317D-4E64-B6CC-9A3A16090FCA}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/SQL Processor/Database Settings/Query/{ACE0E143-0404-45DE-BAE1-DA575415A1F4}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Form Processors/SQL Processor/Database Settings/Fields/{08A68A67-6410-4A38-B221-2B5DDF6D2573}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Rendering Parameters/AddNewItemRenderingParameters/{4762387E-B141-421E-A26E-824125909A69}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Rendering Parameters/HandlebarRenderingParameters/{A7701B46-524A-454C-AD32-CE706ED0C347}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Rendering Parameters/AddNewItemRenderingParameters/Settings/{DAFA6185-D07C-4A25-B80F-BF1DF41A603F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Rendering Parameters/AddNewItemRenderingParameters/__Standard Values/{F98D13D6-D8A6-4DDA-B1E6-1FEA7F40DBE0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Rendering Parameters/AddNewItemRenderingParameters/Settings/ButtonText/{558BBF15-584D-415E-803A-AEE2F641BD75}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Rendering Parameters/AddNewItemRenderingParameters/Settings/Template/{7336BB42-01BF-45C6-A101-33C760480CA9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Rendering Parameters/AddNewItemRenderingParameters/Settings/RootFolder/{59326267-E68D-45C8-B0A6-B0BAAFAF6B82}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Foundation/SF/Handlebars/Rendering Parameters/HandlebarRenderingParameters/__Standard Values/{711B1741-3632-432A-860A-BC26E38613E4}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Foundation/SF/Handlebars/{B73289C6-A70D-4FB4-82E8-F8DF9F32DBAD}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Foundation/SF/Handlebars/moustache/{D21D5483-19C1-46C2-A196-88D16B084F2E}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars/{F2D4B30B-494B-4F14-9F30-530D82736B74}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars/Template/{A00DFEBB-C356-441F-87C6-C759BD5F5118}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars/Container/{B39780DA-459B-4193-B5A5-F40B2CD08D76}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars/Collection Container/{9012F5A8-AA82-4A6F-A1AA-55E8BCCFB0B1}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars/Query Container/{4F00EBB6-FD6D-4501-A36D-712D4F959CCD}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars/Json Container/{97C43B2C-8050-4CE0-97DB-CBC9EF8F4CC8}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars/Facet Container/{5BCE3D40-CF75-4907-83DC-778D9237A6A9}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars/Handlebar Form/{7CF08617-70B0-4E8C-8B22-6B167549AFEB}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars/Add New Item/{0D0CF16D-8239-47F3-9C29-BB2CACA8FDD1}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Feature/SF/Handlebars/{1CE37FF1-7851-4AB3-A68C-D83FA86E61F9}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Feature/SF/Handlebars/HandlebarTemplates/{D2191693-86F1-4564-961F-6D88A43A016A}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/{86435D31-1AE6-4F8E-99FC-3D0483641199}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/{A9C623B8-2831-4621-AB3B-5D02F8488F51}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Form Processors/{20F4C73D-FE66-428F-BA64-895829AC1300}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/Order By/{52C817C5-77B6-476C-B0EF-4FA0E0115A4F}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/YesNo/{353C70DB-5D6C-4C34-BB29-29ABA8C46ED7}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/Order By/Ascending/{61F287D9-45CB-4B68-BA67-5FE76E21E1A7}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/Order By/Descending/{76DCDBAD-0FE1-4878-A9F1-171C9EEE6749}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/YesNo/no/{2417A7D2-83C1-49BA-97FC-DF02732A47BA}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Pick Lists/YesNo/yes/{CD0FDE5E-344A-4633-B1D4-A620866A853E}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Form Processors/Sample SQL Processor/{4FFA1E37-6AF0-4F9A-B633-9955EACC3BA5}/invariant/0</x-item>
+        <x-item>/master/sitecore/content/Global/Form Processors/Sample User Settings Processor/{04ADA6D0-D465-4421-A9F8-DD88CD0D60EE}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/{AE149A21-2F18-4F59-9DE8-EA7FE16E923B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Settings/{6D397E5C-46F9-4781-9FF8-44046DF85B69}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Fonts/{A74EF4C3-936B-4FC5-A49F-AA5812B25EAD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/{4E245F92-0577-409A-9918-6606F15A5FFF}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Settings/All Users/{9DAC8FA4-EE28-4D1F-842E-C107F51E2E6C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Fonts/Consolas/{B5C1D64D-9676-4AF0-8E86-D8FD5873D05E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Fonts/Inconsolata/{44A4D3AE-9DDE-4F94-B12C-9FFFBD3EB3D1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Fonts/Lucida Console/{BA22C1D6-CAFC-4C3D-A73F-210B3EFD4923}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Fonts/Monaco/{80B4B0D2-165F-4753-BAFF-5F36E17715EA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Fonts/Source Code Pro/{D47B0792-C9B5-40A8-BA1F-380424E18167}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Ambiance/{4C6F7736-D125-4E75-9205-80146D42BE8C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Chaos/{C9837101-3F62-421C-9D9F-89EE91E09256}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Chrome/{ABF4C691-40A9-4595-BCAE-7A83D5EF4B01}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Clouds/{E2B7BA58-1008-4D92-B2FC-E382B439BBFC}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Clouds Midnight/{C51CF05D-125A-4539-BF12-F41847CACF6C}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Cobalt/{D394F9C2-E6C1-4E7B-948E-1526846CDD4A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Crimson Editor/{A8D3624E-6179-4458-A372-DCFE71C90D11}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Dawn/{68423E56-04F8-4A2C-A505-7CA602DF81EA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Dreamweaver/{34B1C42F-387B-4E78-9842-981B285A9891}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Eclipse/{65D09760-7FEA-48E8-9B87-8348C304F9BD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Github/{46514AD7-D3E0-4733-A6C3-0099EB4792CD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Idle Fingers/{DE4F3450-15D0-4112-A20B-59A5ADA1D7A8}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Katzenmilch/{E00407A0-F118-4245-9AAB-C25AFA888D9B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Kr Theme/{FC59ACDA-5FE7-4DCE-9116-3E7365EF8475}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Kuroir/{E2222108-0151-4BB2-BB20-F8EECAC235A6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Merbivore/{F789A1CF-B3EF-419F-B26D-34D060A45331}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Merbivore Soft/{9062B5A0-97B3-4BF5-9FEA-C769E2203805}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Mono Industrial/{838BB80B-C044-45A1-AAC5-3704403FAE70}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Monokai/{A0BB8E9B-86AA-47B7-974D-398C0460B6E1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Pastel On Dark/{6128DB64-7D52-4F60-9F5B-753C638704C2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Powershellise/{98266613-A5F2-4A65-8397-B69C9AE26DD9}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Solarized Dark/{816EFD68-7C0B-4FAE-83F2-06AC0A9C21E8}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Solarized Light/{974159D5-09B0-48C7-ABD8-6BCE4FC1F1B6}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Terminal/{BAA4E54B-E64C-41F5-954E-D21EA364850B}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/TextMate/{C71A6505-B049-4D2B-85A4-24848A7BDA64}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Tomorrow/{CA2DE416-E8B0-4CF9-B4E6-DE5ECBF45A54}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Tomorrow Night/{637DF9E8-04D7-4EB3-BF3B-A2B4A1B646F3}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Tomorrow Night Blue/{B20594B2-26F0-4670-9F9E-F140A64DE715}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Tomorrow Night Bright/{3F9B65D2-C91D-48A2-A1F1-37ACA85B99ED}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Tomorrow Night Eighties/{B8BBD14B-057B-45DA-9F1E-54F8862601CD}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Twilight/{102D6C9E-BF14-4416-8B29-7230752053C2}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Vibrant Ink/{F7AFE7C2-A9AD-40DD-92E3-07C9392D92AB}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Modules/Code Editor/Themes/Xcode/{5D1E6A96-C566-4AE6-AAC2-33258A21247E}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/SF/{F7D7C461-F6C0-466A-B7CF-162DCB033F6A}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/SF/Code Text/{185AF9DE-8B03-4D37-BD8F-BC8329AA8B26}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/SF/Code Text/Menu/{0CD68B98-BF5C-461E-8825-A559748EAC13}/invariant/0</x-item>
+        <x-item>/core/sitecore/system/Field types/SF/Code Text/Menu/Edit Code/{72C1FE61-FA41-497E-8ADA-35C556B94A85}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Handlebar Facet Container Settings/{088FF6B1-9B2C-461E-8CFD-AD4FFC5AE80B}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Handlebar Form Settings/{1788C4BA-EA0C-4671-94E6-F2D91D89E4A7}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Handlebar Json Container Settings/{0F5B6F96-B52C-4EA0-A0B1-B68F38BCD0C1}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Handlebar Query Settings/{2B0965A5-C75C-4A01-B358-5FDEB1DB9569}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Handlebar Settings/{10F5421C-0028-4F47-8FA8-C5064950E697}/invariant/0</x-item>
+        <x-item>/core/sitecore/content/Applications/WebEdit/Custom Experience Buttons/Edit Template/{6D099084-861E-441A-8083-9AA9D956D38C}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/SF.Feature.Handlebars.pdb</x-item>
+        <x-item>/bin/SF.Feature.Handlebars.dll</x-item>
+        <x-item>/bin/SF.Foundation.Facets.dll</x-item>
+        <x-item>/bin/SF.Foundation.Facets.pdb</x-item>
+        <x-item>/bin/SF.Foundation.Handlebars.dll</x-item>
+        <x-item>/bin/SF.Foundation.Handlebars.pdb</x-item>
+        <x-item>/bin/SF.Foundation.Serialization.dll</x-item>
+        <x-item>/bin/SF.Foundation.Serialization.pdb</x-item>
+        <x-item>/bin/Handlebars.dll</x-item>
+        <x-item>/bin/Sitecore.SharedSource.CodeEditor.dll</x-item>
+        <x-item>/App_Config/Include/Feature.Handlebars</x-item>
+        <x-item>/App_Config/Include/Foundation.CodeEditor</x-item>
+        <x-item>/App_Config/Include/Foundation.Facets</x-item>
+        <x-item>/App_Config/Include/Foundation.Serialization</x-item>
+        <x-item>/App_Config/Include/Foundation.Handlebars</x-item>
+        <x-item>/App_Config/Include/ZFeature.Routes</x-item>
+        <x-item>/sitecore/shell/Applications/Content Manager/Dialogs/EditCode</x-item>
+        <x-item>/sitecore/shell/Applications/Xaml/Controls/CodePage.xaml.xml</x-item>
+        <x-item>/sitecore/shell/Controls/Lib/ace</x-item>
+        <x-item>/sitecore/shell/Controls/Lib/js-beautify</x-item>
+        <x-item>/Global/Scripts/Feature/Handlebars/AddNewItem.js</x-item>
+        <x-item>/Views/Handlebars</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

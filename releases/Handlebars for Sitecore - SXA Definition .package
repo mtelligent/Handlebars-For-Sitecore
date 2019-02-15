@@ -1,0 +1,147 @@
+<project site="handlebars.dev.local" format="Zip Package" targetfilefolder="wwwroot">
+  <Metadata>
+    <metadata>
+      <PackageName>Handlebars for Sitecore - SXA </PackageName>
+      <Author>David San Filippo</Author>
+      <Version>v 0.1</Version>
+      <Revision />
+      <License>MIT License
+
+Copyright (c) David San Filippo
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.</License>
+      <Comment>Install Handlebars for Sitecore before installing this package.</Comment>
+      <Attributes />
+      <Readme>Install Handlebars for Sitecore before installing this package.</Readme>
+      <Publisher>mtelligent</Publisher>
+      <PostStep />
+      <PackageID />
+    </metadata>
+  </Metadata>
+  <SaveProject>True</SaveProject>
+  <Sources>
+    <xitems>
+      <Entries>
+        <x-item>/master/sitecore/templates/Feature/SF/Handlebars SXA/{48997FAB-1C8B-435A-B62A-7A3940A8F3A7}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Handlebars SXA/Available Renderings/{D31F4F2F-645B-4D1F-83CF-C98FB38EBB3F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Handlebars SXA/Rendering Variant/{EEF973CE-07D7-4D38-B30A-859E9078DC5F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Handlebars SXA/Available Renderings/Handlebar Available Renderings/{B406CB8F-0D52-4215-BF0C-BE8C67CF3A4C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Handlebars SXA/Available Renderings/Handlebar Available Renderings/__Standard Values/{FF320622-B331-4158-8DFC-A9608C9D39D6}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Handlebars SXA/Rendering Variant/Handlebar Template/{DE3BDC29-7319-4A3A-B3BC-83A174311A5D}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Handlebars SXA/Rendering Variant/Handlebar Template/VariantDetails/{C446E0AC-0FBE-40E9-899D-75391ACE7C3F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Handlebars SXA/Rendering Variant/Handlebar Template/__Standard Values/{2AB1F5F2-E98A-4476-83C4-063C4A7826A9}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Feature/SF/Handlebars SXA/Rendering Variant/Handlebar Template/VariantDetails/Template/{90071FB6-2851-4A38-9F55-9C81E2036448}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/{63A5AF0B-6E50-4444-ACEE-2CE6E60C08FD}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Available Renderings/{B591EAF1-BCC5-4FEB-956C-C4730648AE12}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Data Folder/{24C84B4A-1232-4A61-B4F6-497C8111971C}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Available Renderings/$name/{36E1EE58-4F5C-4065-AC3A-039303DB6908}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Data Folder/$name/{5FB015C3-568D-4827-A80E-01FB43D480D8}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Data Folder/$name/Templates/{B98E41F0-597B-42E8-B9D0-14E15DD38FA0}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Data Folder/$name/Collections/{0E731B05-435A-4983-8588-336928514142}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Data Folder/$name/Queries/{A6787DBC-EE73-438F-88E3-2E056DCB1BB5}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Data Folder/$name/Forms/{D3696C9C-AD63-411C-BAE4-F526AF985D68}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Data Folder/$name/Form Processors/{6C7A56C8-26C7-431D-A7DD-15D75749286F}/invariant/0</x-item>
+        <x-item>/master/sitecore/templates/Branches/Feature/SF/Handlebars SXA/Handlebar Data Folder/$name/Json Datasources/{A83BEA71-1725-4017-BAE4-83A21EFD95AB}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Feature/SF/Handlebars SXA/{A1D9056E-9540-401A-88F8-D98553BD6701}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Placeholder Settings/Feature/SF/Handlebars SXA/HandlebarTemplates/{68A1A795-A7F9-4B14-ACDB-6EC5AEDAACA5}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/{41C8DAAE-6887-4EA7-B74A-06DC7E393C87}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/Handlebars/{804C077D-785E-4C10-BDE5-1B648ECAA878}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/Handlebars/HandlebarTemplate/{0C6C5664-1A57-47DF-9F2A-1ADC167B5185}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/Handlebars/HandlebarContainer/{17747DD4-F177-4529-8FBD-CE716E91A9B7}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/Handlebars/HandlebarCollectionContainer/{3FADCAF4-7BE9-41C4-A447-543B011B0424}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/Handlebars/HandlebarQueryContainer/{E7C70AE4-C2C3-4310-81D6-5C4B3D4BCCC4}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/Handlebars/HandlebarsJsonContainer/{1A4508E5-F4D7-4E2D-92D0-22CBC6616228}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/Handlebars/HandlebarFacetContainer/{6DDF1525-8D30-484D-A015-8CEEAC675F35}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/Handlebars/Handlebar Form/{9C2C38AE-B2BC-4F76-8C41-67B8E93334F3}/invariant/0</x-item>
+        <x-item>/master/sitecore/layout/Renderings/Feature/SF/Handlebars SXA/Handlebars/Add New Item/{DB5B436A-0557-4053-96FF-67E39B310ADA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Handlebars/{7E14571B-68B7-4E78-99BC-2849ECE8B7DA}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Handlebars/Handlebars Site Setup/{80B54171-1806-4E08-BA44-5FC4A41C513F}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Handlebars/Handlebars Tenant Setup/{4DB7644B-786C-40B4-9AD6-9D1B6C0E500A}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Handlebars/Handlebars Site Setup/Add Available Renderings/{82AAF086-ADC3-4D43-B4EC-8777B21A7C0E}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Handlebars/Handlebars Site Setup/Add Data Folder/{1E5354DE-7798-429F-987E-664685460512}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Feature/SF/Handlebars/Handlebars Site Setup/Edit Editing Theme/{BED96428-812F-4E1E-BFC0-555E87594DD1}/invariant/0</x-item>
+        <x-item>/master/sitecore/system/Settings/Rules/Insert Options/Rules/Add Handlebar Template Field to Variant Defintion/{77F3A1B2-DADA-4197-9A7A-51D9760CC602}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Handlebars/{C1E4DB8E-E5F2-4809-ABE5-D205C863CE64}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Handlebars/scripts/{143CC0A4-3DC3-4B70-BF94-E92CAD54D79E}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Handlebars/scripts/AddNewItem/{D69AB1F0-2B38-4FC3-9B44-218D6D068D07}/invariant/0</x-item>
+        <x-item>/master/sitecore/media library/Base Themes/Handlebars/scripts/optimized-min/{B1C6F9EB-D64A-46AA-A3E7-E492CEDF62EA}/invariant/0</x-item>
+      </Entries>
+      <SkipVersions>False</SkipVersions>
+      <Converter>
+        <ItemToEntryConverter>
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </ItemToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Items</Name>
+    </xitems>
+    <xfiles>
+      <Entries>
+        <x-item>/bin/SF.Feature.Handlebars.SXA.dll</x-item>
+        <x-item>/bin/SF.Feature.Handlebars.SXA.pdb</x-item>
+        <x-item>/App_Config/Include/Feature.Handlebars.SXA</x-item>
+        <x-item>/Views/HandlebarCollectionContainer</x-item>
+        <x-item>/Views/HandlebarContainer</x-item>
+        <x-item>/Views/HandlebarFacetContainer</x-item>
+        <x-item>/Views/HandlebarForm</x-item>
+        <x-item>/Views/HandlebarJsonContainer</x-item>
+        <x-item>/Views/HandlebarQueryContainer</x-item>
+        <x-item>/Views/HandlebarTemplate</x-item>
+        <x-item>/Views/HandlebarVariant</x-item>
+        <x-item>/Views/AddNewItem</x-item>
+      </Entries>
+      <Converter>
+        <FileToEntryConverter>
+          <Root />
+          <Transforms>
+            <InstallerConfigurationTransform>
+              <Options>
+                <BehaviourOptions>
+                  <ItemMode>Undefined</ItemMode>
+                  <ItemMergeMode>Undefined</ItemMergeMode>
+                </BehaviourOptions>
+              </Options>
+            </InstallerConfigurationTransform>
+          </Transforms>
+        </FileToEntryConverter>
+      </Converter>
+      <Include />
+      <Exclude />
+      <Name>Files</Name>
+    </xfiles>
+  </Sources>
+  <Converter>
+    <TrivialConverter>
+      <Transforms />
+    </TrivialConverter>
+  </Converter>
+  <Include />
+  <Exclude />
+  <Name />
+</project>

@@ -1,0 +1,41 @@
+﻿---
+ID: "b1c6f9eb-d64a-46aa-a3e7-e492cedf62ea"
+Parent: "143cc0a4-3dc3-4b70-bf94-e92cad54d79e"
+Template: "b43ab8d5-e123-42dd-8042-de869cc98c4f"
+Path: "/sitecore/media library/Base Themes/Handlebars/scripts/optimized-min"
+DB: master
+SharedFields:
+- ID: "06d5295c-ed2f-4a54-9bf2-26228d113318"
+  Hint: __Icon
+  Value: People/32x32/package.png
+- ID: "40e50ed9-ba07-4702-992e-a912738d32dc"
+  Hint: Blob
+  BlobID: "08e27e6e-ec6c-4e8d-baf8-59846badfff4"
+  Value: ZG9jdW1lbnQuYWRkRXZlbnRMaXN0ZW5lcigiRE9NQ29udGVudExvYWRlZCIsZnVuY3Rpb24oKXskKCIuYWRkSXRlbUJ1dHRvbiIpLmNsaWNrKGZ1bmN0aW9uKCl7dmFyIHQ9JCh0aGlzKS5hdHRyKCJkYXRhLXRlbXBsYXRlIiksaT0kKHRoaXMpLmF0dHIoImRhdGEtcGFyZW50Iiksbj1wcm9tcHQoIk5hbWU6Iik7Y29uc29sZS5sb2coInRlbXBsYXRlOiIrdCk7Y29uc29sZS5sb2coInBhcmVudDoiK2kpO2NvbnNvbGUubG9nKCJpdGVtTmFtZToiK24pO24mJiQucG9zdCgiL3NpdGVjb3JlL2FwaS9zZi9hZGRpdGVtIix7bmFtZTpuLHRlbXBsYXRlSWQ6dCxwYXJlbnRJZDppfSxmdW5jdGlvbigpe2NvbnNvbGUubG9nKCJzdWNjZXNzIik7ZG9jdW1lbnQubG9jYXRpb24ucmVsb2FkKCEwKX0pfSl9KQ==
+- ID: "6954b7c7-2487-423f-8600-436cb3b6dc0e"
+  Hint: Size
+  Value: 394
+- ID: "6f47a0a5-9c94-4b48-abeb-42d38def6054"
+  Hint: Mime Type
+  Value: "application/x-javascript"
+- ID: "c06867fe-9a43-4c7d-b739-48780492d06f"
+  Hint: Extension
+  Value: js
+Languages:
+- Language: en
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20190215T174007Z
+    - ID: "3f4b20e9-36e6-4d45-a423-c86567373f82"
+      Hint: Title
+      Value: "optimized-min"
+    - ID: "5dd74568-4d4b-44c1-b513-0af5f4cda34f"
+      Hint: __Created by
+      Value: |
+        sitecore\Admin
+    - ID: "ba8341a1-ff30-47b8-ae6a-f4947e4113f0"
+      Hint: Description
+      Value: Experience accelerator optimized file
