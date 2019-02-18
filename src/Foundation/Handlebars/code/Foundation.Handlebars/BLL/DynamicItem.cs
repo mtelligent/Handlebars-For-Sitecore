@@ -64,6 +64,14 @@ namespace SF.Foundation.Handlebars
             }
         }
 
+        public DynamicItem Parent
+        {
+            get
+            {
+                return new DynamicItem(Item.Parent);
+            }
+        }
+
         public DynamicItem ContextItem
         {
             get
