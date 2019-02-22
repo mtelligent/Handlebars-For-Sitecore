@@ -2,7 +2,7 @@
 
 Welcome to Handlebars for Sitecore, a deep extensible set of features that allow you to define presentation markup within Handlebar Templates stored in Sitecore.
 
-If you are using SXA, you can activate the Handlebars feature on your site to get a set of Handlebar Components in the toolbox, or take advantage of the new Handlebar Variant field type to define your Variant markup using Handlebar Syntax.
+If you are using SXA, you can activate the Handlebars feature on your site to get a set of Handlebar Components in the toolbox, or take advantage of the Handlebar Variant field type to define your Variant markup using Handlebar Syntax.
 
 If you're not using SXA, just add our Handlebar components to your placeholder settings to make them available for use. 
 
@@ -16,7 +16,7 @@ The current release has been tested with Sitecore 9.1 and SXA 1.8.
 
 Handlebar templates are defined in Sitecore Items. The templates themselves are editable using an auto complete friendly code editor, making it easy to build complex templates cleanly.
 
-Templates are bound to Sitecore Items server side. The components and variants are normal Sitecore components and can be configued for personalization, AB Testing and Caching setting as needed. The components may be more flexible that other components as you can personlize or test both the container components that define the context as well as the handlebar templates that define the presentation separately.
+Templates are bound to Sitecore Items server side. The components and variants are normal Sitecore components and can be configued for personalization, AB Testing and Caching setting as needed. Because you have separate components for context (which items to bind) and presentation (the templates themselves) you get the fleixbility to easily personlize or test either the data sources or presentation very easily.
 
 # Binding to Sitecore Items
 
@@ -218,12 +218,12 @@ Parses first value as date then formats to String with second param
 **Simple List:**
 
 ```
-{{ #if IsPageEditorEditing }}
+{{ #if IsExperienceEditorEditing  }}
   <div>Experience Editor Mode</div>
 {{ /if }}
 {{ #each Items }}
   <div class="blog-post">
-  {{ #if IsPageEditorEditing }}
+  {{ #if IsExperienceEditorEditing  }}
     <h3>{{{Title}}} <small>{{Date_ShortDate}}</small></h3>
   {{else}}
     <h3><a href="{{ItemUrl}}">{{{Title}}}</a> <small>{{Date_ShortDate}}</small></h3>
@@ -245,7 +245,7 @@ Parses first value as date then formats to String with second param
   <div class="row">
     <div class="large-5  small-5 medium-5 columns">{{{Image}}}</div>
     <div class="large-7  small-7 medium-7 columns">
-    {{ #if IsPageEditorEditing }}
+    {{ #if IsExperienceEditorEditing  }}
       <h3>{{{Title}}} <small>{{Date_ShortDate}}</small></h3>
     {{else}}
       <h3><a href="{{ItemUrl}}">{{{Title}}}</a> <small>{{Date_ShortDate}}</small></h3>
