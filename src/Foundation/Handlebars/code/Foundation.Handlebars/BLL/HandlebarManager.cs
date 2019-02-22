@@ -66,7 +66,7 @@ namespace SF.Foundation.Handlebars
 
             var myDynamicItem = new ExpandoObject() as IDictionary<string, Object>;
             myDynamicItem.Add("IsPageEditorEditing", Sitecore.Context.PageMode.IsExperienceEditorEditing ? true : false);
-
+            myDynamicItem.Add("IsExperienceEditorEditing", Sitecore.Context.PageMode.IsExperienceEditorEditing ? true : false);
 
             foreach (XmlNode node in nodes)
             {

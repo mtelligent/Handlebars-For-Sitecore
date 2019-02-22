@@ -107,6 +107,7 @@ namespace SF.Foundation.Handlebars
                 {
                     names.Add(field.Name);
                     names.Add(field.Name + "_Value");
+                    names.Add(field.Name + "_Field");
 
                     if (Sitecore.Data.Fields.FieldTypeManager.GetField(field) is Sitecore.Data.Fields.MultilistField)
                     {

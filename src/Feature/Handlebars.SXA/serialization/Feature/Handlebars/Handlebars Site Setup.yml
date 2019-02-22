@@ -9,6 +9,12 @@ SharedFields:
   Hint: IncludeByDefault
   Type: Checkbox
   Value: 1
+- ID: "40deee2f-7595-40bd-b2c9-51f9e2346100"
+  Hint: Dependencies
+  Type: Treelist
+  Value: |
+    {D132F62B-B14B-4A66-867B-E6CB9C65E990}
+    {BDF83718-907A-435B-B1BA-64139E07983F}
 Languages:
 - Language: en
   Versions:
