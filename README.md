@@ -24,39 +24,39 @@ To make binding easy, context data sources are wrapped in a Dynamic Item, which 
 
 Every Field of your item can be Accessed through the Dynamic Item as the field name. The rendered value of the field will go through the standard field renderer, and be editable. To properly support field editor, we recommend using the html encoded handlebar syntax with three braces. For example to render a field called "Title" as editable, simply use:
 
-'''
+```
 {{{ Title }}}
-'''
+```
 
 Besides Field Names, we've added common properties to make it easy to use:
-- IsExperienceEditorEditing ñ returns true when in experience editor.
-- ItemUrl ñ Url of the context item
-- ItemId ñ Item id of the context item
+- IsExperienceEditorEditing ‚Äì returns true when in experience editor.
+- ItemUrl ‚Äì Url of the context item
+- ItemId ‚Äì Item id of the context item
 - Children - collection of children of the item
 - Parent - Parent of the Item.
 
 Additionally, we make it easy to access properties of the field without going through helper functions by appending an underscore and suffix to the field name. For example if you were trying to access the value of a field named "Title" without going through the field renderer, you could use the following syntax:
 
-'''
+```
 {{ Title_Value }}
-'''
+```
 
 The other global suffix is "Field", which gives you access to the actual field object. This is really only useful when passing it to a helper function.
 
 Depending on the underlying Field Type we add additional helper suffix properties on the fly. Just append an underscore after the field name to access it.
 
 - - LinkField
-  - FieldName_Url ñ returns friendly url stored in the field 
-  - FieldName_Text ñ returns the test description of the link field
+  - FieldName_Url ‚Äì returns friendly url stored in the field 
+  - FieldName_Text ‚Äì returns the test description of the link field
 - ImageField
-  - FieldName_Src ñ returns the raw Media Library url
-  - FieldName_Alt ñ Returns the configured Alt Text for the Media Item
+  - FieldName_Src ‚Äì returns the raw Media Library url
+  - FieldName_Alt ‚Äì Returns the configured Alt Text for the Media Item
 - Date, DateTime (DateField)
-  - FieldName_ShortDate ñ returns the date formatted ToShortDateString
-  - FieldName_LongDate ñ returns the date formatted ToLongDateString
+  - FieldName_ShortDate ‚Äì returns the date formatted ToShortDateString
+  - FieldName_LongDate ‚Äì returns the date formatted ToLongDateString
  
 Multilist Fields 
-  - FieldName_Count ñ Returns number of items in the list.
+  - FieldName_Count ‚Äì Returns number of items in the list.
 
 Note that both Multilist and certain link fields (Droplink, DropTree, Grouped Drop Link) do not go through the field renderer, but are automatically converted to arrays of dynamic items, allowing you to iterate or navigate to properties of selected items.
 
@@ -67,20 +67,20 @@ When using SXA Variants, the template will bind to the item provided by SXA for 
 When using components, you need to use a "container component" to define the context and a handlebar template component to define the presentation.
 
 There are 3 main Sitecore Data Container Components:
-- Handlebar Container ñ Set the Data Source to the Item you want to bind to. Leave blank to allow binding to the Context Item.
-- Handlebar Collection ñ Allows you to specify a folder or collection of Items to be bound. "Items" is the top most collection for binding.
-- Handlebar Query ñ Will use a Sitecore query to fetch items to be bound based on Rendering Parameters. "Items" is the top most collection for binding.
+- Handlebar Container ‚Äì Set the Data Source to the Item you want to bind to. Leave blank to allow binding to the Context Item.
+- Handlebar Collection ‚Äì Allows you to specify a folder or collection of Items to be bound. "Items" is the top most collection for binding.
+- Handlebar Query ‚Äì Will use a Sitecore query to fetch items to be bound based on Rendering Parameters. "Items" is the top most collection for binding.
 
 The query container is pretty flexible. We added some syntax helpers to the Field Filters section to make it easier to define generic rules.ncluding:
-- Negation ñ Prefix the value with ! if you want the filter to say ìnot equal toî instead of the default equal to.
-- Match the ID of Sitecore Context Item ñ Use a value of $ID if you want a field on the template to match the ID of the current page
+- Negation ‚Äì Prefix the value with ! if you want the filter to say ‚Äúnot equal to‚Äù instead of the default equal to.
+- Match the ID of Sitecore Context Item ‚Äì Use a value of $ID if you want a field on the template to match the ID of the current page
 - Match a value of a field on the Context Item. Use a value of $ followed by the field name to compare a field on the bound item to a field on the page Item.
 
 Keep in mind your search index needs to be up to date to leverage the query container. 
 
 There are two other containers that can bind to other kinds of data:
 - Facet Container - Allows you to bind to any facet (OOB or Custom) to easily surface facet data.
-- JSON Rest Container - can bind any restful ìgetî url that you configure it to a template.
+- JSON Rest Container - can bind any restful ‚Äúget‚Äù url that you configure it to a template.
 
 
 # Handlebar Helpers
@@ -89,7 +89,7 @@ You can even register your own c# functions to add additional functionality. Eac
 
 There are two kinds of helpers, one that produces output:
 
-'''
+```
     public class RegisterTranslateHelper
     {
         public void Process(HandlebarHelpersPipelineArgs pipelineArgs)
@@ -110,11 +110,11 @@ There are two kinds of helpers, one that produces output:
             }));
         }
     }
-'''
+```
 
 And one that allows you to define a condition that can be used like an if else block.
 
-'''
+```
     public class RegisterIfEqualHelper
     {
         public void Process(HandlebarHelpersPipelineArgs pipelineArgs)
@@ -132,11 +132,11 @@ And one that allows you to define a condition that can be used like an if else b
             }));
         }
     }
-'''
+```
 
 After defining your class, you just need to register it in the Handlebar helpers pipeline.
 
-'''
+```
 <configuration xmlns:patch="http://www.sitecore.net/xmlconfig/">
   <sitecore>
     <pipelines>
@@ -153,7 +153,7 @@ After defining your class, you just need to register it in the Handlebar helpers
     </pipelines>
   </sitecore>
 </configuration>
-'''
+```
 
 Out of the box, we support several helper functions including:
 
