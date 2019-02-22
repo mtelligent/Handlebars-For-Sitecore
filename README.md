@@ -8,7 +8,7 @@ If you're not using SXA, just add our Handlebar components to your placeholder s
 
 # Installation:
 
-Check out the (releases page)[https://github.com/mtelligent/Handlebars-For-Sitecore/releases] for the latest installation packages. You'll find the core Handlebars for Sitecore Package and an additional SXA package that you only need to install if you're working with SXA.
+Check out the [releases page](https://github.com/mtelligent/Handlebars-For-Sitecore/releases) for the latest installation packages. You'll find the core Handlebars for Sitecore Package and an additional SXA package that you only need to install if you're working with SXA.
 
 The current release has been tested with Sitecore 9.1 and SXA 1.8. 
 
@@ -170,7 +170,7 @@ Out of the box, we support several helper functions including:
 
 # Samples
 
-**Using Placeholders
+**Using Placeholders**
 ```
 <div class="row">
 <div class="col-md-6">
