@@ -45,7 +45,7 @@ The other global suffix is "Field", which gives you access to the actual field o
 
 Depending on the underlying Field Type we add additional helper suffix properties on the fly. Just append an underscore after the field name to access it.
 
-- - LinkField
+- LinkField
   - FieldName_Url – returns friendly url stored in the field 
   - FieldName_Text – returns the test description of the link field
 - ImageField
