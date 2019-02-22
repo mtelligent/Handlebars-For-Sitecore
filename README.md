@@ -71,7 +71,7 @@ There are 3 main Sitecore Data Container Components:
 - Handlebar Collection – Allows you to specify a folder or collection of Items to be bound. "Items" is the top most collection for binding.
 - Handlebar Query – Will use a Sitecore query to fetch items to be bound based on Rendering Parameters. "Items" is the top most collection for binding.
 
-The query container is pretty flexible. We added some syntax helpers to the Field Filters section to make it easier to define generic rules.ncluding:
+The query container is pretty flexible. We added some syntax helpers to the Field Filters section to make it easier to define generic rules including:
 - Negation – Prefix the value with ! if you want the filter to say “not equal to” instead of the default equal to.
 - Match the ID of Sitecore Context Item – Use a value of $ID if you want a field on the template to match the ID of the current page
 - Match a value of a field on the Context Item. Use a value of $ followed by the field name to compare a field on the bound item to a field on the page Item.
@@ -166,7 +166,25 @@ Out of the box, we support several helper functions including:
 - fieldRenderer - allows you to pass arguments to the filed renderer
 - editFrame - allows you to embed an edit frame within a template
 
+# Handlebar Forms
 
+Handlebar Forms are a component that allows you to define form markup completley in a handlbar template, binding to a content item for form labels and thank you messaging. In addition, it provides an interface for building form processors which can handle the data. So if you have specific logic in mind, you can define your own processor. Or you can use one of the two processors that come with the framework. 
+- The SQL Form Processor allows you to map form parameters to SQL command parameters to insert records into a Database table. 
+- The User Settings Form Processor leverages User Settings Facets, which allow you to store data in xDB in a custom facet for storing user specific key value pairs (more on this in the future).
+
+# User Settings
+
+The Foundation Facets project is also included with handlebars for sitecore, to support binding to facets and saving data in handlebar forms. This is a generic facet that stores a dictionary of dictionaries. Allowing you to store key value pair collections for a user in xDB. This is convenient for data that doesn't need to be highly structured, and it's pretty easy to work with as a Facade is provided that hides the Facet storage code.
+
+```
+\\get or set setting on default area.
+UserSettings.Settings[key];
+
+\\get or set setting in specific area
+UserSettings.Settings[key, area];
+```
+
+It even comes with a Personalization Condition that allows you configure a rule based on one of the settings.
 
 # Samples
 
