@@ -34,6 +34,9 @@ Besides Field Names, we've added common properties to make it easy to use:
 - ItemId – Item id of the context item
 - Children - collection of children of the item
 - Parent - Parent of the Item.
+- ContextItem - Current Page Item as a Dynamic Item
+- Children_Count - Count of Children of the Item
+- HasLayout - Returns true if the item has presentation details.
 
 Additionally, we make it easy to access properties of the field without going through helper functions by appending an underscore and suffix to the field name. For example if you were trying to access the value of a field named "Title" without going through the field renderer, you could use the following syntax:
 
