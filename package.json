@@ -4,7 +4,7 @@
   "description": "Sitecore Habitat Node Dependencies",
   "main": "gulpfile.js",
   "dependencies": {
-    "async": "^1.5.2",
+    "async": "^2.6.4",
     "glob": "^7.0.3",
     "graceful-fs": "^4.1.3",
     "graceful-js": "^1.0.0",
